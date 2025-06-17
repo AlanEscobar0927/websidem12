@@ -1,0 +1,140 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1b2a41;
+  margin: 0;
+  padding: 0;
+  background-color: #1b2a41;
+}
+
+
+.custom-navbar .nav-link {
+  color: #ffffff !important;
+  padding: 8px 15px;
+  margin: 0 17px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.custom-navbar .nav-link:hover {
+  background-color: #ffc107;
+  color: #000000 !important;
+}
+
+.custom-navbar .nav-item.active .nav-link {
+  background-color: #ffc107;
+  color: #1b2a41 !important;
+}
+
+
+.carousel-item img {
+  max-height: 450px;
+  object-fit: cover;
+}
+
+
+aside .card {
+    color: #ffffff;
+  background-color: #1b2a41;
+  border: none;
+  border-left: 4px solid #ffffff;
+  margin-bottom: 1rem;
+
+}
+
+
+.content-box {
+    background: #1b2a41 !important;
+  background-color: #000000; 
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.1);
+  color: #ffffff; 
+}
+
+
+
+.card.h-100 {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  background-color: #16202e;
+  color: #ffffff;
+}
+
+.card.h-100:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #ffffff; 
+  font-weight: bold;
+}
+
+
+h2, h3 {
+  color: #ffffff; 
+}
+
+
+.footer {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-logo h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #1b2a41;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  color: #1b2a41;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #1b2a41;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #44e3ff;
+}
+
+
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #1b2a41;
+}
+
